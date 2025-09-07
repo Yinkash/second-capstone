@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+#hero {
+  background-color: #002f7b;
+  height: 500px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  gap: 10rem;
+}
+.myname {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #afeb8f;
+}
+.me {
+  flex-wrap: wrap;
+}
+.me > h1 {
+  font-size: 35px;
+}
+.mep {
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  color: #002f7b;
+  width: 320px;
+  height: 30px;
+  padding-top: 5px;
+  font-size: 1.5rem;
+}
+#pics {
+  border-radius: 50px;
+  width: 450px;
+  height: 300px;
+}
+.about {
+  background-color: #afeb8f;
+  height: 600px;
+  color: #002f7b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  gap: 10rem;
+  height: 500px;
+}
+.aboutimg img {
+  height: 400px;
+  border-radius: 50px;
+}
+.abouttext {
+  width: 450px;
+}
+.aboutme {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: justify;
+}
+.abouthead {
+  font-size: 1.5rem;
+}
+.education {
+  background-color: whitesmoke;
+  color: #002f7b;
+  height: 400px;
+  padding: 50px 50px 50px 70px;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.experience {
+  grid-column: span 3;
+}
+.school {
+  background-color: #002f7b;
+  grid-row: span 2;
+  border-radius: 50px;
+}
+.school {
+  display: inline-flex;
+  flex-direction: column;
+}
+.schoolyear {
+  padding: 20px 20px 0px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.schoolmiddle {
+  padding: 5px 20px 10px 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #afeb8f;
+}
+.schoolend {
+  padding: 5px 20px 0px 30px;
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+.skills {
+  display: flex;
+  gap: 100px;
+  height: 400px;
+  background-color: #002f7b;
+  padding: 40px;
+}
+.partone {
+  padding-top: 10px;
+  flex: 2;
+}
+.parttwo {
+  padding-top: 10px;
+  flex: 2;
+}
+.twohead {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: whitesmoke;
+  padding-top: 10px;
+}
+.twobottom {
+  font-size: 1rem;
+  color: #afeb8f;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+.partthree {
+  flex: 0.3;
+}
+.text {
+  padding: 50px 30px 0px 30px;
+}
+.twolist {
+  padding: 0px 0px 20px 30px;
+}
+.ilovetocode {
+  display: grid;
+  background-color: #afeb8f;
+  color: #002f7b;
+  height: 400px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 360px;
+}
+.code-inner {
+  padding: 50px 0px 0px 80px;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  grid-column: span 2;
+}
+.six {
+  background-color: whitesmoke;
+  height: 400px;
+  display: grid;
+  color: #002f7b;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-rows: 300px;
+}
+.second {
+  grid-row: span 2;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.with {
+  padding: 40px 80px 0px 80px;
+  letter-spacing: 2px;
+}
+.last {
+  height: 400px;
+  background-color: #002f7b;
+  color: #afeb8f;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+.reach {
+  padding: 40px 80px 0px 80px;
+}
+.last-reach {
+  grid-column: span 2;
+}
+.reach-flex {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
